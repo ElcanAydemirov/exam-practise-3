@@ -1,0 +1,76 @@
+#products {
+    h1 {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 2.5rem;
+    }
+
+    .card {
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        &:hover button {
+
+            opacity: 1;
+            transition: all 1s;
+
+        }
+
+        &:hover .heart {
+
+            opacity: 1;
+            transition: all 1s;
+
+        }
+
+        &:hover .info {
+            opacity: 1;
+            transition: all 1s;
+
+        }
+
+        .heart {
+            font-size: 25px;
+            opacity: 0;
+            margin: 10px 0 0 10px;
+        }
+
+        .info {
+            opacity: 0;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        @media (max-width:400px) {
+            margin: 0 auto;
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .texts {
+        text-align: center;
+    }
+
+    .price {
+        color: red;
+        margin: 10px 0;
+
+    }
+
+    button {
+        width: 100%;
+        border: none;
+        background-color: #FE4C50;
+        padding: 0.8rem 0;
+        opacity: 0;
+        font-size: 1.1rem;
+        color: white;
+        cursor: pointer;
+
+    }
+}
